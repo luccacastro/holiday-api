@@ -44,17 +44,3 @@ class ProductView(MethodView):
 product_view = ProductView.as_view('product_view')
 app.add_url_rule('/holiday/', view_func=product_view, methods=['POST'])
 
-
-
-1 . - False _. -> T
-2.- False -> 
-3.- 2 -> is true -> F
-
-
-48 -> jsonify
-24 -> pleno
-12 -> senior
-
-840*2
-420*2
-210
